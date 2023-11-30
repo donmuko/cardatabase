@@ -14,7 +14,11 @@
 	<name>cardatabase</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<marven.compiler.target>1.8</marven.compiler.target>
+		<!--<java.version>11</java.version>-->
+		<repackage.classifier/>
+		<spring-native.version>0.11.3</spring-native.version>
 	</properties>
 	<dependencies>
 		<dependency>
