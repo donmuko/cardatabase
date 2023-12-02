@@ -92,14 +92,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<resources>
-		<resource>
-    			<directory>src/main/resources</directory>
-    			<filtering>true</filtering>
-    			<includes>
-        			<include>**/*.yaml</include>
-    			</includes>
-		</resource>
-	</resources>
-
+	
 </project>
